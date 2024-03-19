@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Max Verstappen",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Sergio Perez",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Charles Leclerc",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "George Russell",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Carlos Sainz",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Fernando Alonso",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Lando Norris",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Lewis Hamilton",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    },
+    {
+        "nome": "Daniel Ricciardo",
+        "tempo": 0,
+        "tempo_volta": 0,
+        "pontos": 0
+    }
+]

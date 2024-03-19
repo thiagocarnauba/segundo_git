@@ -1,0 +1,32 @@
+[
+    {
+        "circuito": "Mônaco",
+        "voltas": 8,
+        "tempo_medio": 70,
+        "ordem": 1
+    },
+    {
+        "circuito": "itália",
+        "voltas": 10,
+        "tempo_medio": 85,
+        "ordem": 2
+    },
+    {
+        "circuito": "Bélgica",
+        "voltas": 14,
+        "tempo_medio": 100,
+        "ordem": 3
+    },
+    {
+        "circuito": "Brasil",
+        "voltas": 8,
+        "tempo_medio": 70,
+        "ordem": 4
+    },
+    {
+        "circuito": "Canadá",
+        "voltas": 8,
+        "tempo_medio": 70,
+        "ordem": 5
+    }
+]

@@ -2,6 +2,8 @@
 import random
 from time import sleep
 import os
+from pathlib import Path
+import json
 
 class Piloto:
     def __init__(self, nome) -> None:
@@ -30,27 +32,32 @@ def exibir_painel(pilotos: list) -> None:
             print(f'{index + 1}° {p_formatado}| Lap: {p.tempo_volta} | Diff:  Líder')
 
 
+#Inicio do código 
+CAMINHO_PILOTO = Path(__file__).parent
+CAMINHO_PILOTO = CAMINHO_PILOTO / 'pilotos.json'
 
-nomes = [
-    "Max Verstappen",
-    "Sergio Pérez",
-    "Charles Leclerc",
-    "George Russell",
-    "Carlos Sainz",
-    "Fernando Alonso",
-    "Lando Norris",
-    "Lewis Hamilton",
-    "Daniel Ricciardo"
-]
+CAMINHO_CIRCUITO = Path(__file__).parent
+CAMINHO_CIRCUITO = CAMINHO_CIRCUITO / 'grandpix.json'
+
+CAMINHO_SAVE = Path(__file__).parent
+CAMINHO_SAVE = CAMINHO_SAVE / 'save.json'
+
+with open(CAMINHO_SAVE, 'r') as file:
+    circuito_atual = json.load(file)
+
+print(circuito_atual)
+
 pilotos = []
 
-for nome in nomes:
-    piloto = Piloto(nome)
-    pilotos.append(piloto)
+with open(CAMINHO_PILOTO, 'r') as file:
+    nomes = json.load(file)
+    for p in nomes:
+        piloto = Piloto(p['nome'])
+        pilotos.append(piloto)
 
 for volta in range(1, 11):
     os.system('cls')
-    print(f'\n--------- VOLTA {volta} ---------\n')
+    print(f'\n----------------- VOLTA {volta} --------------\n')
     for piloto in pilotos:
         piloto.realizar_volta()
         
