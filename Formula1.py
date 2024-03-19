@@ -60,7 +60,4 @@ for volta in range(1, 11):
 
 
 
-#for p in pilotos:
-#   p_formatado = p.nome.ljust(10, " ")
-#   print(f'{p_formatado}| Tempo Volta: 1.208 | Volta:10')
 
