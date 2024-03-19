@@ -7,3 +7,5 @@ for letra in nome:
 
 if nome:
     print(nome)
+
+print('Teste Clone')
