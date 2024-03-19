@@ -30,4 +30,6 @@ if t1.is_alive:
 else:
     print(t2.__dict__)
 
+print('Teste de GIT')
+
 
