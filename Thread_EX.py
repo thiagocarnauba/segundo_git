@@ -31,5 +31,6 @@ else:
     print(t2.__dict__)
 
 print('Teste de GIT')
+print('Teste de GIT2')
 
 
