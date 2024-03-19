@@ -1,13 +1,1 @@
-print('Olá GIT')
-
-nome = 'Thiago'
-
-for letra in nome:
-    print(letra)
-
-if nome:
-    print(nome)
-
-print('Teste Clone')
-print('Testando mais')
-print('AAAAAAAAA')
+print('Olá mandei esse teste do pc da exito!')
